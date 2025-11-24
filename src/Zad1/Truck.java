@@ -11,4 +11,7 @@ public class Truck extends Vehicle {
     public double getFuelConsumption() {
         return 602;
     }
+
+    @Override
+    public void service(){System.out.println("Kontrola hamulców");}
 }

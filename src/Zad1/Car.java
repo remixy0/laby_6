@@ -10,4 +10,7 @@ public class Car extends Vehicle {
     public double getFuelConsumption() {
         return 178;
     }
+
+    @Override
+    public void service(){System.out.println("Wymiana oleju");}
 }

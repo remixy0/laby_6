@@ -13,4 +13,7 @@ public class ElectricCar extends Car implements Electric {
     public int getBatteryLevel() {
         return batteryLevel ;
     }
+
+    @Override
+    public void service(){System.out.println("Kontrola baterii");}
 }

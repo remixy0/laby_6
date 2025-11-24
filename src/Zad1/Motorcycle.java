@@ -10,4 +10,8 @@ public class Motorcycle extends Vehicle {
     public double getFuelConsumption() {
         return 50;
     }
+
+    @Override
+    public void service(){System.out.println("Smarowanie łancucha");}
+
 }

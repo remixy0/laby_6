@@ -6,6 +6,8 @@ public abstract class Vehicle {
 
     public abstract double getFuelConsumption();
 
+    public abstract void service();
+
     public void printInfo() {
         System.out.println("Brand: " + brand);
         System.out.println("Year: " + year);
