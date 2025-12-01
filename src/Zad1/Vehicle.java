@@ -12,4 +12,8 @@ public abstract class Vehicle {
         System.out.println("Brand: " + brand);
         System.out.println("Year: " + year);
     }
+
+    public int getYear() {
+        return year;
+    }
 }
